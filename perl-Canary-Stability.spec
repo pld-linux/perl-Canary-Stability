@@ -59,5 +59,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc COPYING Changes README
+%dir %{perl_vendorlib}/Canary
 %{perl_vendorlib}/Canary/Stability.pm
 %{_mandir}/man3/Canary::Stability.3pm*
