@@ -4,7 +4,6 @@
 #
 %define		pdir	Canary
 %define		pnam	Stability
-%include	/usr/lib/rpm/macros.perl
 Summary:	Canary::Stability - canary to check Perl compatibility for Schmorp's modules
 Summary(pl.UTF-8):	Canary::Stability - kanarek do sprawdzania zgodności Perla z modułami Schmorpa
 Name:		perl-Canary-Stability
