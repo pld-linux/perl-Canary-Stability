@@ -7,16 +7,17 @@
 Summary:	Canary::Stability - canary to check Perl compatibility for Schmorp's modules
 Summary(pl.UTF-8):	Canary::Stability - kanarek do sprawdzania zgodności Perla z modułami Schmorpa
 Name:		perl-Canary-Stability
-Version:	2012
+Version:	2013
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/M/ML/MLEHMANN/Canary-Stability-2012.tar.gz
-# Source0-md5:	88516c29e3d7807a5943ce3a3bdcdb31
-URL:		http://search.cpan.org/dist/Canary-Stability/
+Source0:	http://www.cpan.org/modules/by-authors/id/M/ML/MLEHMANN/Canary-Stability-%{version}.tar.gz
+# Source0-md5:	5368520547521b254317ea0e9b3d23ab
+URL:		https://metacpan.org/release/Canary-Stability
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
